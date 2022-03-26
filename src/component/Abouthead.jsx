@@ -7,6 +7,7 @@ import img4 from "./image/coursphoto4.svg"
 
 
 export const AboutHead = () => {
+    console.log(1)
     return(
         <div className={style.div}>
            <div className={style.div1}>
