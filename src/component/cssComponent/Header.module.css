@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #CFCFCF;
+    padding: 1rem 3rem;
+    height: 90vh;
+}
+.div2{
+    padding-top: 230px;
+}
+.h1{
+    color: #594B9B;
+    font-size: 50px;
+}
+.img{
+    width: 100%;
+}
+.p{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+}

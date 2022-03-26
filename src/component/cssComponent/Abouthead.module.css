@@ -1,0 +1,36 @@
+*{
+    margin:0;
+}
+.div{
+    padding: 1rem 3rem;
+    background-color: #CFCFCF;
+    height: 90vh;
+}
+.div1{
+    display: grid;
+    grid-template-columns:20% 60% 20% ;
+    margin-top: 5%;
+}
+.div2{
+    text-align: center;
+    margin: 0 10px;
+}
+.div5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.img2{
+    margin-left: 50px;
+}
+.h2{
+    color: #594B9B;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.p{
+    font-size:large;
+    font-weight: 600;
+    margin-top: 33px;
+}

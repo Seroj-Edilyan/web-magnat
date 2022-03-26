@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.div{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color: #CFCFCF;
+}
+.div2{
+    text-align: right;
+    position: relative;
+}
+.div3{
+     position: absolute;
+     top:35%;
+     right: 0;
+}
+.div4{
+    position: relative;
+}
+.div5{
+    position: absolute;
+    top:47%;
+    right: 3%;
+}
+.div6{
+    position: absolute;
+    top:57%;
+    right: 3%;
+}
+.p{
+    display: inline-block;
+}
+.p1{
+    color: white;
+    font-size: 18px;
+}
+.img{
+    position: absolute;
+    right: 106%;
+    top:2px
+}
+.img1{
+    margin-right: 20px;
+}
+.foot{
+    text-align: center;
+    background-color: #594B9B;
+    padding: 6px 0px;
+}

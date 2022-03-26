@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.div{
+    padding-top: 40px;
+    padding-left: 39px;
+    height: 43vh ;
+}
+.h2{
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.inp{
+    display: block;
+    width: 38%;
+    margin-bottom: 33px;
+    height: 4vh;
+    padding: 5px 0px 5px 7px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.inp:focus{
+    border:1px solid black;
+}
+.btn{
+    width: 11%;
+    margin-top: 20px;
+    height: 4vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: #2E45F0;
+}
+.btn:disabled{
+    background-color: #b4b5c2;
+}
