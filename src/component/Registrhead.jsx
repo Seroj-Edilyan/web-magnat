@@ -27,6 +27,7 @@ export const Registrthead = () => {
          <input type="text" placeholder="Ազգանուն" className={style.inp} value={lastname} onChange={(e) => setLastname(e.target.value)}/>
          <PhoneInput country={'am'} className={style.phoneinp} value={phone} onChange={(phone) => setPhone(phone)}/>
          <button className={style.btn} disabled={!name || !lastname || !phone} onClick={()=>postData(data,setLoading,setLoading1)}>Գրանցում</button>
+         <button>Click</button>
         </div>
     )
 }
